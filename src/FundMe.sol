@@ -6,6 +6,13 @@ import {PriceConverter} from "./PriceConverter.sol";
 
 error FundMe__NotOwner();
 
+/**
+ * @title A sample Funding Contract
+ * @author Aditya Pathak
+ * @notice This contract is for creating a sample funding contract
+ * @dev This implements price feeds as our library
+ */
+
 contract FundMe {
     using PriceConverter for uint256;
 
